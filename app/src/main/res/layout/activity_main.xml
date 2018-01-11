@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.munira.simpleapplication.MainActivity">
+
+    <ImageView
+       android:id="@+id/nicecar"
+        android:layout_width="274dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/nicecar"
+
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/headingTvLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/head_name"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/myCoustomTextColorWhite"
+        android:background="@color/colorPrimaryDark"
+
+
+      />
+    <EditText
+        android:id="@+id/myNameEtValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:id="@+id/changeTxBtn"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Click"
+        android:onClick="ChangeText"
+
+        />
+ 
+
+</LinearLayout>
